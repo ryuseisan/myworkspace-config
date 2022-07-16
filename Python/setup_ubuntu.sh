@@ -11,7 +11,7 @@ echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
 source ~/.bashrc
 pyenv -v
 
-# INSTALL PYTHON3.9 WITH PYTNV
+# INSTALL PYTHON3.9 WITH PYENV
 $HOME/ryusei-ishida/pyenv/bin/pyenv install 3.9.8
 pyenv install 3.9.8
 pyenv versions
