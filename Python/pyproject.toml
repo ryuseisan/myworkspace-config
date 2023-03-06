@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "”
+name = ""
 version = "0.1.0"
 description = ""
 authors = ["RyuseiIshida <serys9469.japan@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.9"
+python = "^3.9"
 
 
 [tool.poetry.dev-dependencies]
