@@ -14,7 +14,6 @@ source ~/.bashrc
 pyenv -v
 
 # INSTALL PYTHON3.9 WITH PYENV
-$HOME/ryusei-ishida/pyenv/bin/pyenv install 3.9.8
 pyenv install 3.9.12
 pyenv versions
 pyenv global 3.9.12
