@@ -14,9 +14,9 @@ source ~/.bashrc
 pyenv -v
 
 # INSTALL PYTHON3.9 WITH PYENV
-pyenv install 3.9.12
+pyenv install 3.10.9
 pyenv versions
-pyenv global 3.9.12
+pyenv global 3.10.9
 
 # INSTALL POETRY
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
