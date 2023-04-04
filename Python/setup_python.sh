@@ -19,7 +19,8 @@ pyenv versions
 pyenv global 3.10.9
 
 # INSTALL POETRY
-curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
-echo 'export PATH="$HOME/.poetry/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
+# curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+# echo 'export PATH="$HOME/.poetry/bin:$PATH"' >> ~/.bashrc
+# source ~/.bashrc
+pip install poetry
 poetry config virtualenvs.in-project
