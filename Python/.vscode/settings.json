@@ -20,7 +20,7 @@
   "python.linting.flake8Args": ["--config=${workspaceFolder}/pyproject.toml"],
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
-  "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+  "isort.path": ["${workspaceFolder}/.venv/bin/isort"],
   "python.linting.mypyEnabled": true,
   "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
   "python.testing.pytestEnabled": true,
