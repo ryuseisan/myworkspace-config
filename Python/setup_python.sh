@@ -2,7 +2,7 @@
 echo "このシェルスクリプトは $ source setup_python.sh で実行してください"
 
 # INSTALL PYENV
-sudo apt install update
+sudo apt update
 sudo apt install -y git git curl build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl
 
 git clone https://github.com/pyenv/pyenv.git
