@@ -1,27 +1,16 @@
 {
   "[python]": {
-    "editor.defaultFormatter": null,
+    "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.formatOnType": false,
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.ruff": true,
-      "source.organizeImports": true
+      "source.organizeImports.ruff": true
     },
     "editor.wordBasedSuggestions": true
   },
-  "python.envFile": "${workspaceFolder}/.env",
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": false,
-  "python.linting.pycodestyleEnabled": false,
-  "python.linting.lintOnSave": true,
-  "python.formatting.provider": "black",
-  "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
-  "isort.path": ["${workspaceFolder}/.venv/bin/isort"],
-  "python.linting.mypyEnabled": true,
-  "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
   "python.testing.pytestEnabled": true,
-  "ruff.args": ["--config=${workspaceFolder}/pyproject.toml"],
   "autoDocstring.docstringFormat": "google"
 }
